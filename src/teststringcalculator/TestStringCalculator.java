@@ -15,5 +15,12 @@ public class TestStringCalculator {
 		
 		assertEquals (cal.add(10, 20), 30) ;
 	}
+	
+	@Test
+	public void subtract() {
+		
+		assertEquals (cal.subtract(20, 10), 10) ;
+	}
+	
 
 }
